@@ -1,0 +1,76 @@
+/* Flexbox Layout Challenge - Starter CSS */
+
+/* Basic page reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: coral;
+    }
+
+/* Header */
+.header {
+    padding: 30px;
+    background-color: coral;
+}
+
+/* Navigation */
+.main-menu {
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    gap: 20px;
+}
+
+/* Main Content */
+.main {
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+    .main section {
+        flex: 1;
+    }
+
+        .main section h2 {
+            margin-bottom: 20px;
+        }
+
+        .main section p {
+            margin-bottom: 20px;
+        }
+
+    /* Sidebar */
+    .main aside {
+        width: 300px;
+    }
+
+        .main aside h3 {
+            padding: 10px;
+            background-color: coral;
+            color: #fff;
+        }
+
+        .main aside li {
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-bottom: 1px solid #ccc;
+        }
